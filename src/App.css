@@ -1,0 +1,25 @@
+.container{
+  max-width: 1244px;
+  margin: auto;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.btn.white {
+  background-color: #fff;
+  color: #333;
+}
+
+.btn.white:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+svg {
+  display: inline-block;
+}
