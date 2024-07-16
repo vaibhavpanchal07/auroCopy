@@ -23,7 +23,7 @@
     flex-direction: column;
 }
 .main_landing .overlay .landing h1{
-    font-size: clamp(24px, 3vw, 48px);
+    font-size: clamp(24px, 2.4vw, 42px);
     font-weight: 700;
     color: #fff;
 }
@@ -67,7 +67,7 @@
 }
 .service_overview .box{
     width: 50%;
-    height: 450px;
+    height: 550px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,4 +84,48 @@
     justify-content: center;
     text-align: center;
     padding: 20px;
+}
+
+/* #################### */
+
+.industries_background {
+    background: linear-gradient(90deg, #009563 0%, #00E699 52%);
+    height: 450px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.industries {
+    background: #ebebeb;
+    position: relative;
+    padding-bottom: 50px;
+}
+.industries .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 140px;
+}
+
+.industries article.container{
+    display: flex;
+    justify-content: center;
+    max-width: 720px;
+    margin-top: 50px;
+    align-items: center;
+    padding-top: 0;
+}
+
+/* ########### */
+#career{
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding-top: 50px;
+}
+
+#career h1{
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 700;
 }

@@ -1,0 +1,22 @@
+.info-box{
+    max-width: 385px;
+    text-align: center;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.226);
+    background-color: #fff;
+}
+.info-box .body {
+    padding: 15px;
+}
+.info-box img{
+    width: 100%;
+}
+.info-box h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 0;
+}
+
+.info-box p{
+    color: #555;
+    line-height: 28px;
+}

@@ -6,10 +6,10 @@
   --primary-color: #00E699;
   --secondary-color: #01cdfb;
 }
-body {
-  font-family: 'Poppins';
+*{
+  transition: .2s all;
 }
-.page {
-  position: relative;
-  top: -83px;
+body, html, #root, .App {
+  font-family: 'Poppins';
+  width: 100%;
 }

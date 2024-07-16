@@ -1,0 +1,11 @@
+.review {
+    padding: 50px 0;
+    background: url('../assets/testmonial-BG.jpg') center no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    color: #fff;
+}

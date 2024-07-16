@@ -1,10 +1,21 @@
-nav {
-    position: relative;
-    z-index: 1;
+nav .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 15px !important;
+    margin: 15px auto !important;
+    width: 100%;
+    margin: auto;
+}
+
+nav{
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.scrolled{
+    background-color: #333;
 }
 
 .nav_links {
@@ -75,4 +86,8 @@ nav {
 
 .has_dropdown:hover .dropdown {
     display: block;
+}
+
+.menu{
+    display: none;
 }
