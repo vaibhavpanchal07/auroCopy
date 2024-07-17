@@ -76,8 +76,8 @@ nav{
     display: inline-block;
 }
 
-.nav_links .dropdown a:hover {
-    color: var(--secondary-color);
+.nav_links .dropdown a:hover, .dropdown .active  {
+    color: var(--secondary-color) !important;
 }
 
 .has_dropdown {

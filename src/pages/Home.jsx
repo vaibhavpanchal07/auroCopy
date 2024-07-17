@@ -28,7 +28,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <section className='service_overview'>
+            <section className='service_overview' data-aos="fade-up" data-aos-duration="1000">
                 <div className="box app">
                     <div className="overlay">
                         <h3 data-aos="fade-up" data-aos-duration="1000">Building High Performing Web/Mobile Apps to accelerate business outcomes</h3>
@@ -79,14 +79,14 @@ const Home = () => {
             <Review />
             <Partner />
             <section id="career" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-                <div className="container">
+                <div className="container" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
                     <h1>Careers</h1>
                     <p className='text-xl py-5'>Expand your professional horizon with the best brains in the ecosystem. We are enabling digital transformation for some of the most renowned businesses, and working with us means tapping into that uninhibited growth. See where your skills might fit in and hit that Apply button.</p>
                 </div>
                 <img className='w-full' src={career} alt="" />
             </section>
             <div className='bg-[#00E699] py-10 text-center' data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-                <div className="container">
+                <div className="container" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
                     <h4 className='mb-8 text-2xl font-semibold text-white'>Find Opportunities right for you </h4>
                     <Link className='btn white' to={'/'}>Explore More</Link>
                 </div>

@@ -1,0 +1,30 @@
+.service_details{
+    background-color: #f3f6f6;
+}
+
+.service_details .description {
+    font-size: 20px;
+    color: #555;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.service_details #tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.service_details .tab_body{
+    padding: 0 50px;
+}
+.service_details #tabs .tab {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service_details #tabs .tab.active{
+    background-color: var(--primary-color);
+}

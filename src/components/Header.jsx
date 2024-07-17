@@ -36,15 +36,15 @@ const Header = () => {
                         <NavLink to={'/services'} >Services <FaChevronDown /></NavLink>
                         <ul className="dropdown">
                             <li>
-                                <Link to={'/oracle-services'}>Oracle Services</Link></li>
+                                <NavLink to={'services/oracle_services'}>Oracle Services</NavLink></li>
                             <li>
-                                <Link to={'/appication-development'}>Appication Development</Link>
+                                <Link to={'services/appication-development'}>Appication Development</Link>
                             </li>
                             <li>
-                                <Link to={'/application-integration'}>Appication Integration</Link>
+                                <Link to={'services/application-integration'}>Appication Integration</Link>
                             </li>
                             <li>
-                                <Link to={'/digital-operations'}>Digital Operations</Link>
+                                <Link to={'services/digital-operations'}>Digital Operations</Link>
                             </li>
                         </ul>
                     </li>

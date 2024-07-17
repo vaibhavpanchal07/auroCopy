@@ -12,6 +12,7 @@ const App = () => {
         // once: true,
         disable: 'mobile'
       });
+      Aos.refreshHard();
     }, []);
   return (
     <div className='App'>
