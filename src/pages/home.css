@@ -29,7 +29,7 @@
 }
 .main_landing .overlay .landing h4{
     color: #fff;
-    font-size: clamp(16px, 1vw, 26px);
+    font-size: clamp(16px, 2vw, 26px);
     margin-top: 20px;
 }
 

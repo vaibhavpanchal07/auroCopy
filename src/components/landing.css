@@ -34,10 +34,9 @@
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 70%;
     height: 200px;
     padding: 20px;
     position: absolute;
-    bottom: -95px;
+    bottom: -80px;
 }

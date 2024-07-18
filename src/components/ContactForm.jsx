@@ -9,7 +9,7 @@ const ContactForm = () => {
         console.log(formData);
     }
     return (
-        <div id='conatctForm' data-aos="fade-up" data-aos-duration="1000">
+        <div id='conatctForm' data-aos="fade-up" data-aos-delay='1000' data-aos-duration="1000">
             <div className="container">
                 <h1 className='text-3xl text-center font-bold py-8'>Contact</h1>
                 <form onSubmit={handleSubmit}>

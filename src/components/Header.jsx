@@ -33,7 +33,7 @@ const Header = () => {
                         <NavLink to={'/'} >Home</NavLink>
                     </li>
                     <li className={"has_dropdown"}>
-                        <NavLink to={'/services'} >Services <FaChevronDown /></NavLink>
+                        <NavLink to={'/services/oracle_services'} >Services <FaChevronDown /></NavLink>
                         <ul className="dropdown">
                             <li>
                                 <NavLink to={'services/oracle_services'}>Oracle Services</NavLink></li>
