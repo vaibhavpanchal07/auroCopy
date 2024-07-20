@@ -2,16 +2,16 @@
 import './home.css';
 import { CgScrollV } from "react-icons/cg";
 import { Link } from 'react-router-dom';
-import Box from '../components/Box';
-import vector1 from '../assets/Vector.jpg'
-import vector2 from '../assets/Vector-1-1.jpg'
-import vector3 from '../assets/Vector-2.jpg'
-import Insights from '../assets/Insights.jpg'
-import successStories from '../assets/success-stories.jpg'
-import career from '../assets/career.jpg'
-import Review from '../components/Review';
-import Partner from '../components/Partner';
-import ContactForm from '../components/ContactForm';
+import Box from '../../components/Box';
+import vector1 from '../../assets/Vector.jpg'
+import vector2 from '../../assets/Vector-1-1.jpg'
+import vector3 from '../../assets/Vector-2.jpg'
+import Insights from '../../assets/Insights.jpg'
+import successStories from '../../assets/success-stories.jpg'
+import career from '../../assets/career.jpg'
+import Review from '../../components/Review';
+import Partner from '../../components/Partner';
+import ContactForm from '../../components/ContactForm';
 const Home = () => {
     return (
         <div className='home page'>

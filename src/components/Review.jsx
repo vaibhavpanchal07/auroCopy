@@ -8,9 +8,9 @@ import { Navigation } from 'swiper/modules';
 import './review.css';
 import testimonial1 from '../assets/ava-man-1.jpg'
 import testimonial2 from '../assets/Ellipse-2870.jpg'
-const Review = () => {
+const Review = ({pt}) => {
     return (
-        <div className='review' data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+        <div className={`review`} style={pt??{paddingTop: "120px"}} data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
             <div className="container"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                 <h3 className='text-2xl font-bold mb-3'>What Our Clients Are Saying About Us </h3>
                 <p className=''>Value is the One Sentiment We Swear By, Read our Case Studies</p>

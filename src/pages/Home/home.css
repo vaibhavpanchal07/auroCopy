@@ -1,7 +1,7 @@
 .main_landing {
     height: 105vh;
     width: 100%;
-    background: url('../assets/Header_banner.jpg');
+    background: url('../../assets/Header_banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -54,16 +54,16 @@
     flex-wrap: wrap;
 }
 .service_overview .app{
-    background: url('../assets/Group-18328.jpg');
+    background: url('../../assets/Group-18328.jpg');
 }
 .service_overview .app_int{
-    background: url('../assets/Group-18329.jpg');
+    background: url('../../assets/Group-18329.jpg');
 }
 .service_overview .digi_op{
-    background: url('../assets/Group-18330.jpg');
+    background: url('../../assets/Group-18330.jpg');
 }
 .service_overview .start_up{
-    background: url('../assets/Group-18331.jpg');
+    background: url('../../assets/Group-18331.jpg');
 }
 .service_overview .box{
     width: 50%;

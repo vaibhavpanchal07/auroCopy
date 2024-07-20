@@ -35,8 +35,22 @@
     display: flex;
     align-items: center;
     width: 70%;
-    height: 200px;
+    height: 175px;
     padding: 20px;
     position: absolute;
-    bottom: -80px;
+    bottom: -90px;
+    z-index: 1;
+    animation-name: fade-right;
+    animation-duration: 1s;
+}
+
+@keyframes fade-right {
+    0%{
+        left: -100%;
+        opacity: 0;
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }
 }

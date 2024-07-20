@@ -1,6 +1,6 @@
-import tab1img from '../../assets/Pharma-Supplychain.jpg'
-import tab1ico from '../../assets/serviceIcon-1.jpg'
-import onpremisesImg from '../../assets/Oracle-Cloud-1-1.png'
+import tab1img from '../../../assets/Pharma-Supplychain.jpg'
+import tab1ico from '../../../assets/serviceIcon-1.jpg'
+import onpremisesImg from '../../../assets/Oracle-Cloud-1-1.png'
 const service1 = {
     serviceDetail:{
         serviceDescription:"Evolve your Enterprise Resource Planning (ERP) Systems from being systems of record (SoR) to vehicles of growth with business process and business model innovation. Oracle EBS solutions are at the forefront of embracing this paradigm with capabilities to empower their users with composable, seamless, smart, and intelligent processes.",

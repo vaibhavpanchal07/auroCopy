@@ -1,15 +1,18 @@
-import tab1ico from '../../assets/serviceIcon-1.jpg'
-import tab2ico from '../../assets/serviceIcon_cloud.jpg'
-import tab4ico from '../../assets/serviceIcon_pro.jpg'
-import onpremisesImg from '../../assets/onpremissesapplicationdev.jpg'
-import tab1img from '../../assets/servicepage1.jpg'
-import tab2img from '../../assets/AppDev2.jpg'
-import tab3img from '../../assets/AppDev3.jpg'
-import tab4img from '../../assets/AppDev4-1.jpg'
+import tab1ico from '../../../assets/serviceIcon-1.jpg'
+import tab2ico from '../../../assets/serviceIcon_cloud.jpg'
+import tab4ico from '../../../assets/serviceIcon_pro.jpg'
+import onpremisesImg from '../../../assets/onpremissesapplicationdev.jpg'
+import tab1img from '../../../assets/servicepage1.jpg'
+import tab2img from '../../../assets/AppDev2.jpg'
+import tab3img from '../../../assets/AppDev3.jpg'
+import tab4img from '../../../assets/AppDev4-1.jpg'
+import overviewImg from '../../../assets/service-Page-img.jpg';
 const service2 = {
     serviceDetail:{
         serviceDescription:"The success of your business today depends on your capability of meeting customer demands, creating a connected experience for your enterprise, optimizing operations, and building enterprise partnerships. We create solutions that help you keep in line with the ever-changing modern technological landscape.",
         onPremisesImg : onpremisesImg,
+        secondHeading: "Pre-built and customization friendly scripts that automate all your Day1 Microservices Platform activities",
+        overviewImg: overviewImg,
     },
     tabsdata : [
         {

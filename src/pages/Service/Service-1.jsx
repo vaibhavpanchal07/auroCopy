@@ -1,7 +1,7 @@
-import Landing from "../components/Landing";
-import background from '../assets/service_1-bg.jpg'
-import ServiceDetail from "../components/ServiceDetail";
-import service1 from "../utils/serviceData/service1.js";
+import Landing from "../../components/Landing.jsx";
+import background from '../../assets/service_1-bg.jpg'
+import ServiceDetail from "./components/ServiceDetail.jsx";
+import service1 from "./serviceData/service1.js";
 const Service1 = () => {
     return (
         <div className="service_1 page">

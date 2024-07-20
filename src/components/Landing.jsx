@@ -1,8 +1,9 @@
 import './landing.css';
 
-const Landing = ({ background, heading, subHeading, desc }) => {
+const Landing = ({ background, heading, subHeading, desc, pt }) => {
 
     const bgStyle = {
+        paddingTop: `${pt}px`,
         background: `url(${background})`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
@@ -19,7 +20,7 @@ const Landing = ({ background, heading, subHeading, desc }) => {
                     </div>
                 </div>
             </div>
-            <div className="floting-desc" data-aos="fade-right" data-aos-delay="200" data-aos-duration="500">
+            <div className="floting-desc">
                 <h2>{desc}</h2>
             </div>
         </div>

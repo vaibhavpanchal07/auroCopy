@@ -1,5 +1,5 @@
 .service_details{
-    background-color: #ebebeb;
+    background-color: #f3f6f6;
 }
 
 .service_details .description {
@@ -17,9 +17,8 @@
 }
 
 .service_details .tab_body{
-    margin: 0 50px;
     display: flex;
-    height: 470px;
+    margin-top: 10px;
 }
 .service_details .tab_body .img-container img{
     object-fit: cover;
@@ -54,20 +53,21 @@
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    margin: 0 10px;
-    background-color: #fff;
+    margin: 0 10px; 
     flex: 1;
     text-align: center;
+    font-weight: 700;
+    color: #333;
 }
 
 .service_details #tabs .tab.active{
-    background-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 /* ###### */
 
 .jumbStart{
-    background: url('../assets/service-Page_sec3GB.jpg') center no-repeat;
+    background: url('../../../assets/service-Page_sec3GB.jpg') center no-repeat;
     width: 100%;
     height: 370px;
     background-size: cover;
@@ -79,6 +79,10 @@
 .differentiators .container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.differentiators .container > *{
+    flex: 1;
 }
 
 .differentiators .container h1{
